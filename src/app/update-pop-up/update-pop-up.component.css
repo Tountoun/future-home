@@ -1,0 +1,21 @@
+
+.form-field {
+  width: 100%;
+}
+.buttons {
+     margin-top: 20px;
+     text-align: center;
+}
+button {
+     margin-right: 20px;
+}
+.radio {
+  margin-bottom: 20px;
+}
+mat-card-title {
+     margin-bottom: 20px;
+}
+
+.checkbox-margin {
+  margin: 0 10px;
+}

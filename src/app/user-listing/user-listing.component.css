@@ -1,0 +1,14 @@
+table {
+  width: 100%;
+}
+th {
+  padding: 0 30px;
+}
+
+mat-paginator {
+  padding-top: 30px;
+}
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}

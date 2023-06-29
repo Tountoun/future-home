@@ -1,0 +1,25 @@
+.registration-form {
+  min-width: 200px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.form-field {
+  width: 100%;
+}
+.buttons {
+     margin-top: 20px;
+     text-align: center;
+}
+button {
+     margin-right: 20px;
+}
+
+mat-card-title {
+     margin-bottom: 20px;
+}
+
+.opt {
+     font-size: 18px;
+     font-weight: bold;
+}

@@ -1,6 +1,13 @@
 # Authentication
 
+## Presentation
+This project is used to work on users' authentication in angular using guards to secure routes based on user credentials (role, etc).
+
+## Dependencies
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+
+To install the dependencies of this project, run the following command:
+`npm install`.
 
 ## Development server
 

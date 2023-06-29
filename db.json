@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "tilltates",
+      "name": "Till Tates",
+      "email": "tilltates8@gmail.com",
+      "password": "tilltates",
+      "gender": "male",
+      "role": "ADMIN",
+      "country": "Togo"
+    },
+    {
+      "id": "sam600",
+      "name": "Sam Yves",
+      "email": "samYves@gmail.com",
+      "password": "samyves",
+      "gender": "male",
+      "role": "USER",
+      "country": "Gabon"
+    },
+    {
+      "id": "Nicko",
+      "name": "Bob Nick",
+      "email": "bobN@gmail.com",
+      "password": "bobby123",
+      "gender": "male",
+      "role": "USER",
+      "country": "Senegal"
+    },
+    {
+      "id": "Mimi",
+      "name": "Michelle Huges",
+      "email": "hugesMich@yahoo.fr",
+      "password": "mimiHuges",
+      "gender": "female",
+      "role": "USER",
+      "country": "Azerbaijan"
+    },
+    {
+      "id": "Anthony12",
+      "name": "Anthou Bred",
+      "email": "bredBAnth@yahoo.fr",
+      "password": "bredAnthou12",
+      "gender": "male",
+      "role": "USER",
+      "country": "China"
+    },
+    {
+      "id": "Georges",
+      "name": "Kilimandjaro Georges",
+      "email": "djaro@gmail.com",
+      "password": "djaroGeorges",
+      "gender": "male",
+      "role": "USER",
+      "country": "India"
+    },
+    {
+      "id": "Isma122",
+      "name": "Maii Yacobi",
+      "email": "yacobi12@gmail.com",
+      "password": "yacobi12Maii",
+      "gender": "male",
+      "role": "USER",
+      "country": "Iraq"
+    },
+    {
+      "id": "human",
+      "name": "Gohou Saki",
+      "password": "gohousaki",
+      "email": "sakigohou@gmail.com",
+      "gender": "male",
+      "role": "USER",
+      "country": "Syria"
+    },
+    {
+      "id": "Vitch",
+      "name": "Amescovitch Yovo",
+      "password": "vitchYov23",
+      "email": "yovoamevi@gmail.com",
+      "gender": "male",
+      "role": "USER",
+      "country": "Spain"
+    }
+  ]
+}
