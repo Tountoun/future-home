@@ -4,6 +4,7 @@ import { AuthService } from '../services/auth.service';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { User } from '../utils/types';
+import { catchError, Observable, of } from "rxjs";
 
 @Component({
   selector: 'app-login',
@@ -30,17 +31,25 @@ export class LoginComponent {
   proceedLogin() {
     if (this.loginForm.valid) {
       this.authService.getUserByCode(this.loginForm.value.username)
-        .subscribe((response: User) => {
-          this.loginUser = response;
-
-          if (this.loginUser.password === this.loginForm.value.password) {
-            sessionStorage.setItem('username', this.loginUser.id);
-            sessionStorage.setItem('role', this.loginUser.role.valueOf());
-            this.router.navigate(['']);
+        .pipe(
+          catchError((err) => {
+            return of(null);
+          })
+        )
+        .subscribe((response: User | null) => {
+          if (response) {
+            this.loginUser = response;
+            if (this.loginUser.password === this.loginForm.value.password) {
+              sessionStorage.setItem('username', this.loginUser.id);
+              sessionStorage.setItem('role', this.loginUser.role.valueOf());
+              this.router.navigate(['']);
+            } else {
+              this.toast.error("Invalid credentials");
+            }
           } else {
             this.toast.error("Invalid credentials");
           }
-        })
+        });
     } else {
       this.toast.warning("Please enter a valid data");
     }

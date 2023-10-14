@@ -1,0 +1,14 @@
+<mat-card class="house-card" [style.width.px]="width">
+  <img mat-card-image class="house-photo" [src]="location.photo" alt="Exterior photo of {{ location.name }}">
+  <mat-card-content>
+     <h2>{{ location.name}}</h2>
+     <mat-icon aria-hidden="true" aria-label="Home icon" fontIcon="room"></mat-icon>
+     {{ location.city }}, {{ location.state }}
+     <br/>
+     <a [routerLink]="['/details', location.id]">Learn more</a>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

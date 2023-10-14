@@ -81,5 +81,217 @@
       "role": "USER",
       "country": "Spain"
     }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Acme Fresh Start Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "/assets/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
+      "availableUnits": 4,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 2,
+      "name": "A113 Transitional Housing",
+      "city": "Santa Monica",
+      "state": "CA",
+      "photo": "/assets/brandon-griggs-wR11KBaB86U-unsplash.jpg",
+      "availableUnits": 0,
+      "wifi": false,
+      "laundry": true
+    },
+    {
+      "id": 3,
+      "name": "Warm Beds Housing Support",
+      "city": "Juneau",
+      "state": "AK",
+      "photo": "/assets/i-do-nothing-but-love-9o_9N3Eulo8-unsplash.jpg",
+      "availableUnits": 1,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": 4,
+      "name": "Homesteady Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "/assets/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 5,
+      "name": "Happy Homes Group",
+      "city": "Gary",
+      "state": "IN",
+      "photo": "/assets/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 6,
+      "name": "Hopeful Apartment Group",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "/assets/r-architecture-JvQ0Q5IkeMM-unsplash.jpg",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 7,
+      "name": "Seriously Safe Towns",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "/assets/phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
+      "availableUnits": 5,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 8,
+      "name": "Hopeful Housing Solutions",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "/assets/r-architecture-GGupkreKwxA-unsplash.jpg",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 9,
+      "name": "Seriously Safe Towns",
+      "city": "Oakland'",
+      "state": "CA",
+      "photo": "/assets/saru-robert-9rP3mxf8qWI-unsplash.jpg",
+      "availableUnits": 10,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": 10,
+      "name": "Capital Safe Towns",
+      "city": "Portland",
+      "state": "OR",
+      "photo": "/assets/webaliser-_TPTXZd9mOo-unsplash.jpg",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 11,
+      "name": "Peace Homes",
+      "city": "San Francisco",
+      "state": "CA",
+      "photo": "/assets/vj-von-art-BP1Ze0qcp-c-unsplash.jpg",
+      "availableUnits": 11,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 12,
+      "name": "Paradise Livings",
+      "city": "Munich",
+      "state": "BV",
+      "photo": "/assets/todd-kent-178j8tJrNlc-unsplash.jpg",
+      "availableUnits": 5,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 13,
+      "name": "Your Journey",
+      "city": "New Castel",
+      "state": "DL",
+      "photo": "/assets/sean-kong-cr-Gq_wrU4E-unsplash.jpg",
+      "availableUnits": 8,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 14,
+      "name": "Liberty Towns",
+      "city": "London",
+      "state": "EN",
+      "photo": "/assets/scott-webb-1ddol8rgUH8-unsplash.jpg",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 15,
+      "name": "New Skies Solutions",
+      "city": "Hollywood",
+      "state": "CA",
+      "photo": "/assets/rowan-heuvel-bjej8BY1JYQ-unsplash.jpg",
+      "availableUnits": 20,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 16,
+      "name": "Angeles Peace",
+      "city": "Los Angeles",
+      "state": "CA",
+      "photo": "/assets/ricardo-gomez-angel-HBxRMMqYxeQ-unsplash.jpg",
+      "availableUnits": 9,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 17,
+      "name": "Music Towns",
+      "city": "Boston",
+      "state": "MS",
+      "photo": "/assets/r-architecture-2gDwlIim3Uw-unsplash.jpg",
+      "availableUnits": 7,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 18,
+      "name": "Easy Life Solutions",
+      "city": "Miami",
+      "state": "FL",
+      "photo": "/assets/point3d-commercial-imaging-ltd-jhJ6WIGW_80-unsplash.jpg",
+      "availableUnits": 13,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 19,
+      "name": "Fans Homes",
+      "city": "Liverpool",
+      "state": "EN",
+      "photo": "/assets/fomstock-4ojhpgKpS68-unsplash.jpg",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 20,
+      "name": "Historical Architecture",
+      "city": "Tiergarten",
+      "state": "BL",
+      "photo": "/assets/brian-babb-XbwHrt87mQ0-unsplash.jpg",
+      "availableUnits": 14,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 21,
+      "name": "Clean Houses",
+      "city": "Chicago",
+      "state": "CA",
+      "availableUnits": 7,
+      "wifi": true,
+      "laundry": true,
+      "photo": "r-architecture-GGupkreKwxA-unsplash.jpg"
+    }
   ]
 }

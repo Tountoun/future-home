@@ -1,0 +1,43 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Save new location</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="location-form" [formGroup]="locationForm" (ngSubmit)="proceedPost()">
+      <mat-form-field class="form-field">
+        <mat-label>Name</mat-label>
+        <input matInput formControlName="name" placeholder="Ex: Peace Houses">
+      </mat-form-field>
+      <mat-form-field class="form-field">
+        <mat-label>City</mat-label>
+        <input matInput formControlName="city" placeholder="Ex: Chicago">
+      </mat-form-field>
+      <mat-form-field class="form-field">
+        <mat-label>State</mat-label>
+        <input matInput formControlName="state" placeholder="Ex: CA">
+      </mat-form-field>
+      <mat-form-field class="form-field">
+        <mat-label>Available Units</mat-label>
+        <input type="number" matInput formControlName="availableUnits" placeholder="Ex: 2">
+      </mat-form-field>
+      <section class="form-file-field">
+          <button mat-raised-button class="file-button" (click)="fileInput.click()">Choose location photo</button>
+          <input hidden type="file" (change)="onFileSelected($event)" accept="image/*" #fileInput>
+      </section>
+      <section class="form-field">
+        <mat-checkbox class="checkbox" formControlName="wifi" color="primary" labelPosition="after">
+          <span class="checkbox-label">Wifi</span>
+        </mat-checkbox>
+      </section>
+      <section class="form-field">
+        <mat-checkbox class="checkbox" formControlName="laundry" color="primary" labelPosition="after">
+          <span class="checkbox-label">Laundry</span>
+        </mat-checkbox>
+      </section>
+      <div class="buttons">
+          <button mat-raised-button color="primary">Submit</button>
+          <a (click)="previousRoute()" mat-raised-button color="accent">Cancel</a>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

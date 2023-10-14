@@ -1,1 +1,26 @@
-<h2>Welcome {{ loginUser }}!</h2>
+<h2 *ngIf="showHouses">Welcome {{ loginUser }}!</h2>
+
+<div class="homes" *ngIf="showHouses; else default">
+     <mat-form-field>
+          <mat-label>Filter</mat-label>
+          <input matInput (keyup)="filter(input.value)" placeholder="Ex. Chicago" #input>
+     </mat-form-field>
+     <div class="res">
+          <h2 *ngIf="no_data == true ; else load">
+               An error occurred
+          </h2>
+          <ng-template #load>
+               <mat-grid-list [cols]="gridCols" rowHeight="500px" (window:resize)="handleSize($event)">
+                    <mat-grid-tile *ngFor="let housingLocation of filteredLocationList">
+                         <app-location
+                         [location]="housingLocation"
+                         [width]="width"></app-location>
+                    </mat-grid-tile>
+               </mat-grid-list>
+          </ng-template>
+     </div>
+</div>
+
+<ng-template #default>
+     Show a default home page
+</ng-template>

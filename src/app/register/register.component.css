@@ -1,6 +1,10 @@
+mat-card {
+     display: flex;
+     margin: 0 auto;
+     align-items: center;
+     width: 50%;
+}
 .registration-form {
-  min-width: 200px;
-  max-width: 600px;
   width: 100%;
 }
 

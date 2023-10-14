@@ -15,6 +15,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from 'src/app/material.module';
 import { ToastrModule } from 'ngx-toastr';
+import { LocationComponent } from './location/location.component';
+import { DetailsComponent } from './details/details.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { PostHouseComponent } from './post-house/post-house.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,10 @@ import { ToastrModule } from 'ngx-toastr';
     UserListingComponent,
     UpdatePopUpComponent,
     CountrySortPipe,
-    ContinentSortPipe
+    ContinentSortPipe,
+    LocationComponent,
+    DetailsComponent,
+    PostHouseComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +42,7 @@ import { ToastrModule } from 'ngx-toastr';
     ToastrModule.forRoot(),
     HttpClientModule,
     MaterialModule,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
